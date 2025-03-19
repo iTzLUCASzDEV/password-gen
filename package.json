@@ -1,5 +1,5 @@
 {
-  "homepage": "https://itzlucaszdev.github.io/password-gen/",
+  "homepage": "https://itzlucaszdev.github.io/password-gen",
   "name": "tictactoe",
   "private": true,
   "version": "0.0.0",
@@ -10,11 +10,13 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "bootstrap": "^5.3.3",
+    "build": "^0.1.4",
     "framer-motion": "^12.5.0",
+    "gh-pages": "^6.3.0",
     "git": "^0.1.5",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
