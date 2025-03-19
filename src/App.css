@@ -1,0 +1,38 @@
+
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+
+}
+
+body{
+  background-color: black;
+  overflow-x: hidden;
+
+}
+
+
+.choose-char{
+  color: green;
+}
+
+.numberChar{
+  border: none;
+  outline: none;
+}
+
+.copyButtom{
+  font-size: 0.7rem;
+  margin-top: 3px;
+  width: fit-content;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.passClass{
+  word-break: break-all;
+  cursor: pointer;
+}
